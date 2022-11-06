@@ -1,4 +1,4 @@
-FROM pihole/pihole:latest
+FROM pihole/pihole:2022.04.3
 
 RUN apt update && apt install -y unbound
 
