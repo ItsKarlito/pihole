@@ -17,7 +17,7 @@ services:
       WEBUIBOXEDLAYOUT: 'traditional'
       WEBTHEME: 'default-dark'
       TZ: 'America/New_York'
-      WEB_PORT: '1024'
+      WEB_PORT: '1026'
       WEBPASSWORD: 'pihole'
       PIHOLE_DNS_: '127.0.0.1#5335'
       DNSSEC: 'false'
