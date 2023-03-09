@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo docker stop Pihole
-sudo rm /home/debian/pihole/etc-pihole/pihole-FTL.db
+sudo docker stop pihole
+sudo rm /home/debian/docker/pihole/etc-pihole/pihole-FTL.db
 sudo docker start Pihole
-sudo docker exec -it Pihole sudo ip -s -s neigh flush all > /dev/null
+sudo docker exec -it pihole sudo ip -s -s neigh flush all > /dev/null
